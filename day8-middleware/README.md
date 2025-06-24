@@ -1,4 +1,4 @@
-middleware is nothing but the function which is having some functionality and serve as the  intermidiator to  identify wheather accessing person is authenticated or not or etc stuff as per the functionality 
+<!-- middleware is nothing but the function which is having some functionality and serve as the  intermidiator to  identify wheather accessing person is authenticated or not or etc stuff as per the functionality  -->
 
 
 syntax 
@@ -19,7 +19,7 @@ syntax
     }
 
 
-code : middleware 
+<!-- code : middleware  -->
 
 
             function myMiddleware (req,res,next){
@@ -30,7 +30,7 @@ code : middleware
             export default myMiddleware;
 
 
-code main : 
+<!-- code main :  -->
 
             import express from "express";
             import myMiddleware from "./middleware/myMiddleware.js";
@@ -49,4 +49,4 @@ code main :
 
 
 
-output : middlware is running
+<!-- output : middlware is running -->
